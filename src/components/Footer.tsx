@@ -17,7 +17,7 @@ interface FooterProps {
 const Footer: React.FC<FooterProps> = ({ name, email, phone,address }) => {
   return (
     // <footer style={{ backgroundColor: '#bg-slate-200', padding: '20px', textAlign: 'center' }}>
-    <footer className='bg-slate-200 p-20 text-center'>
+    <footer className='bg-slate-200 p-20 text-center text-xl'>
       <div>
         <strong>{name} Bushido SAN</strong>
       </div>
@@ -36,6 +36,6 @@ const Footer: React.FC<FooterProps> = ({ name, email, phone,address }) => {
     </footer>
   );
 };
-  
+
 
 export default Footer
