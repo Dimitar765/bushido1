@@ -16,8 +16,8 @@ Od pocetka rada kluba, imamo nosioce zlatnih, srebrnih i bronzanih medalja sa ka
             </p>
         </div>
 
-   <div className="w-2/3 h-[710px] mt-36 flex flex-col justify-around">
-    <img  className="h-[710px]" src="wado.jpg" alt="" />
+   <div className="w-2/4   mt-36 flex flex-col justify-around">
+    <img  className="h-[710px]" src="treneri.jpg" alt="" />
    </div>
    </div>
    </>

@@ -21,7 +21,7 @@ function App() {
           <Route path='/contact' element={<Contact />} />
           <Route path='*' element={<h1>404 Not Found</h1>} />
         </Routes>
-        <Footer />
+        <Footer name={''} email={''} phone={''} address={''} />
       </BrowserRouter>
     </>
   )
