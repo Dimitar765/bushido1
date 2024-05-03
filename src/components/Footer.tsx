@@ -1,9 +1,4 @@
-
-// function Footer() {
-//   return (
-//     <div className="w-full h-30 bg-red-400">Footer</div>
-//   )
-// }
+import { FaFacebookSquare, FaInstagramSquare } from 'react-icons/fa';
 
 import React from 'react';
 
@@ -14,7 +9,7 @@ interface FooterProps {
   address: string;
 }
 
-const Footer: React.FC<FooterProps> = ({ name, email, phone,address }) => {
+const Footer: React.FC<FooterProps> = ({ name, email, phone, address }) => {
   return (
     // <footer style={{ backgroundColor: '#bg-slate-200', padding: '20px', textAlign: 'center' }}>
     <footer className='bg-slate-200 p-20 text-center text-xl'>
@@ -28,7 +23,12 @@ const Footer: React.FC<FooterProps> = ({ name, email, phone,address }) => {
         Phone: <a href={`tel:${phone}`}>{phone} +381 64 579812</a>
       </div>
       <div>
-          Address: < a href={`add:${address}`}>{address}bulevar Arsenija Carnoevica 165, Beograd </a>
+        Address: < a href={`add:${address}`}>{address}bulevar Arsenija Carnoevica 165, Beograd </a>
+      </div>
+
+      <div className="flex justify-center gap-4 py-4">
+        <a href="https://www.facebook.com/bushido.san.nbg" target="_blank" rel="https://www.facebook.com/bushido.san.nbg">{<FaFacebookSquare />}</a>
+        <a href="https://www.instagram.com/_bushido_san_/" target="_blank" rel="noopener noreferrer">{<FaInstagramSquare />}</a>
       </div>
       <div>
         &copy; {new Date().getFullYear()} Mite & Ace

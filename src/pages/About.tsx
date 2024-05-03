@@ -3,8 +3,9 @@ function About() {
   return (
     <>
       <div className="flex bg-slate-200 min-h-screen">
-        <div className="w-2/3 mt-20 ml-20">
-          <p className="text-justify text-xl p-12">
+        <div className="w-2/3 mt-52 ml-20">
+          <h1 className="text-4xl text-center uppercase p-12">O nama</h1>
+          <p className="text-justify text-xl px-12">
             Karate klub Bushido SAN osnovan je 10.marta 2020. godine i jedan je od retkih klubova u kojem se uci Wado Kai/Wado Ryu stil.
             Osnivaci su Aleksandar Makic, nosilac crnog pojasa 3.dan, licencirani trener i sudija. Uros Jovanovic, nosilac crnog pojasa 1.dan, licencirani trener i sudija. Marko Makic, nosilac crnog pojasa 1.dan i licencirani trener.
             Lokacija na kojoj drzimo treninge je u okviru teretane Puls Fitnes na Novom Beogradu(Bulevar Arsenija Carnojevica 165).
@@ -17,9 +18,9 @@ function About() {
         </div>
 
         <div className="w-1/3 mt-28 p-6">
-          <img className="" src="treneri.jpg" alt="" />
+          <img className="w-full" src="treneri.jpg" alt="" />
         </div>
-      </div>
+      </div >
     </>
   )
 }

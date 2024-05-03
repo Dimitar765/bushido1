@@ -1,13 +1,6 @@
 
-// function Contact() {
-//   return (
-//     <div>Contact</div>
-//   )
-// }
-
-
-// import React from 'react';
-
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
 const Contact: React.FC = () => {
   const emailAddress = 'bushido.san3@gmail.com';
   return (
@@ -19,9 +12,9 @@ const Contact: React.FC = () => {
           {/* <p>Maill: bushido.san3@gmail.com</p> */}
           <a href={`mailto:${emailAddress}`}>Send us an email: bushido.san3@gmail.com</a>
           <p>Phone: +381 64 579812</p>
-          <div style={{ display: 'flex', flexDirection: 'column', }}>
-            <a href="https://www.facebook.com/bushido.san.nbg" target="_blank" rel="https://www.facebook.com/bushido.san.nbg">Facebook</a>
-            <a href="https://www.instagram.com/_bushido_san_/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <div className="flex justify-center gap-4 py-4">
+            <a href="https://www.facebook.com/bushido.san.nbg" target="_blank" rel="https://www.facebook.com/bushido.san.nbg">{<FaFacebookSquare />}</a>
+            <a href="https://www.instagram.com/_bushido_san_/" target="_blank" rel="noopener noreferrer">{<FaInstagramSquare />}</a>
           </div>
         </div>
         <div>
@@ -29,7 +22,7 @@ const Contact: React.FC = () => {
 
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 
