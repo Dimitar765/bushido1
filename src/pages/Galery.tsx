@@ -1,5 +1,5 @@
 
-function Galery() {
+function Gallery() {
   return (
     <>
 
@@ -46,4 +46,4 @@ function Galery() {
     </>)
 }
 
-export default Galery
+export default Gallery
