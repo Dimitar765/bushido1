@@ -30,7 +30,7 @@ function Navbar() {
                 <Link
                   key={link.id}
                   to={link.url}
-                  className="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-md font-medium"
                   onClick={closeMobileMenu}
                 >
                   {link.name}

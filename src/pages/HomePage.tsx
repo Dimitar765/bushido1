@@ -8,7 +8,7 @@ function HomePage() {
           <img className="w-full " src="back.jpg" alt="" />
           <div className="absolute inset-0 opacity-60"></div>
           <div className="absolute inset-0 flex items-center justify-center">
-            <h2 className="text-xl md:text-5xl font-bold text-red-500 uppercase">Karate Klub Bushido SAN</h2>
+            <h2 className="text-3xl md:text-5xl font-bold text-red-500 uppercase animate-fade-down">Karate Klub Bushido SAN</h2>
           </div>
         </section>
         <div className="flex justify-between">
