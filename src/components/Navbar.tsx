@@ -1,6 +1,7 @@
 
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const links = [
   { id: 1, name: 'Home', url: '/' },
@@ -42,7 +43,7 @@ function Navbar() {
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
             >
-              Menu
+              <GiHamburgerMenu />
             </button>
           </div>
         </div>
