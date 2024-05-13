@@ -21,8 +21,8 @@ function Navbar() {
     <div className="bg-slate-200">
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex-shrink-0">
-            <img className="h-8 w-8" src="im.jpg" alt="" />
+          <div className="flex-shrink-0 ">
+            <img className="h-12 w-12 rounded-full" src="im.jpg" alt="" />
           </div>
           <div className="hidden sm:block">
             <div className="ml-10 flex space-x-4">
@@ -49,7 +49,6 @@ function Navbar() {
         </div>
       </div>
 
-      {/* Mobile menu, show/hide based on menu state. */}
       {isMobileMenuOpen && (
         <div className="sm:hidden" id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1">
